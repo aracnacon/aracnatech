@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Contact - AracnaTech</title>
+    <meta property="og:title" content="Contact - AracnaTech" />
+    <meta property="og:description" content="Get in touch to start a Discovery engagement or ask a question." />
+    <meta property="og:image" content="https://aracnatech.io/images/profile/MeHeadSun.jpeg" />
+    <meta property="og:url" content="https://aracnatech.io/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AracnaTech" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contact - AracnaTech" />
+    <meta name="twitter:description" content="Get in touch to start a Discovery engagement or ask a question." />
+    <meta name="twitter:image" content="https://aracnatech.io/images/profile/MeHeadSun.jpeg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Inter:wght@400;700&family=Lora:wght@400;700&family=Merriweather:wght@400;700&family=Orbitron:wght@400;700&family=Playfair+Display:wght@400;700&family=Rajdhani:wght@400;700&family=Roboto:wght@400;700&display=swap" />
+  </head>
+  <body class="page-aracnatech">
+
+    <header>
+      <img src="images/profile/MeHeadSun.jpeg" alt="Profile photo of Brandon" width="200" height="200" />
+      <h1><i class="fa-solid fa-spider"></i> AracnaTech</h1>
+      <p class="typewriter" data-text="Let's figure out what your team needs."></p>
+    </header>
+
+    <nav>
+      <a href="index.html">AracnaTech</a>
+      <a href="webcompare.html">Live Comparison</a>
+      <a href="https://aracnacon.github.io" target="_blank">Portfolio</a>
+      <a href="#" class="theme-toggle" aria-label="Change theme"><i class="fa-solid fa-palette"></i></a>
+    </nav>
+
+    <main>
+
+      <section class="gs-reveal">
+        <h2>Get in Touch</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="b3266e06-aea0-40b0-ae30-57e058c48600" />
+          <input type="hidden" name="redirect" value="https://aracnatech.io/thanks.html" />
+          <input type="hidden" name="subject" value="New message from AracnaTech website" />
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
+
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" placeholder="Your name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" placeholder="Your email" required /><br /><br />
+
+          <label for="company">Company / Organization:</label><br />
+          <input type="text" id="company" name="company" placeholder="Optional" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="40" placeholder="Tell us about the problem you're trying to solve." required></textarea><br /><br />
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <section class="gs-reveal">
+        <h2>More About Me</h2>
+        <p>
+          See the rest of my work, experience, and projects at
+          <a href="https://aracnacon.github.io" target="_blank" style="color: var(--color-primary);">aracnacon.github.io</a>.
+        </p>
+        <div class="social-row" style="justify-content: center; margin-top: 15px;">
+          <div class="social-links">
+            <a href="mailto:brandon.hixson@aracnatech.com"><i class="fa-solid fa-spider"></i> brandon.hixson@aracnatech.com</a>
+            <a href="https://github.com/aracnacon"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/brandonhixson"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 AracnaTech. All rights reserved.</p>
+    </footer>
+
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/scroll-animations.js"></script>
+  </body>
+</html>
